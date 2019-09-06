@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
 int CargarNum1 ( int a)
 {
 
@@ -106,6 +110,9 @@ return factB;
 
 void CalcularTodos (int a, int b, int *resultadoSuma, int *resultadoResta, int *resultadoMultiplicacion, int *resultadoDivision, int *resultadoFactorialA, int *resultadoFactorialB)
 {
+
+
+
 printf("\n\n");
 *resultadoSuma = CalcularSuma(a,b);
 *resultadoResta = CalcularResta(a,b);
@@ -118,15 +125,25 @@ printf("\n\n");
 
 }
 
-void MostrarResultados(int suma, int resta, int mult, int div, int factA, int factB){
+void MostrarResultados(int suma, int resta, int mult, int div, int factA, int factB, int ErrorDiv){
 
 printf ("\n\n");
 printf("La suma es: %d\n", suma);
 printf("La resta es: %d\n", resta);
 printf("La multiplicacion es: %d\n", mult);
+
+
+
+
 printf("La division es: %d\n", div);
+
+
+
+
+
 printf("El factorial del primer operando es: %d\n", factA);
 printf("El factorial del segundo operando es: %d\n", factB);
+
 printf("\n\n");
 
 

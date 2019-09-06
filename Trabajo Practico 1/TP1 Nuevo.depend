@@ -17,3 +17,16 @@
 
 1567746114 source:c:\users\sofia\desktop\tp1\biblioteca.c
 
+1567790874 source:c:\users\sofia\desktop\tp_laboratorio_1-master\trabajo practico 1\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+
+1567790838 source:c:\users\sofia\desktop\tp_laboratorio_1-master\trabajo practico 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblioteca.h"
+
+1567790751 c:\users\sofia\desktop\tp_laboratorio_1-master\trabajo practico 1\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+
